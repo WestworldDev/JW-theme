@@ -15,15 +15,22 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wwr' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'wwr' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'wwr' ), 'wwr', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
+		<section class="hero is-fullheight" >
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div id="navbarMenuHeroB" class="navbar-menu">
+                        <div class="navbar-start"> <a href="/index.html" class="navbar-item is-active">
+                  Home
+                </a > <a href="/parent.html" class="navbar-item">
+                  Development Examples
+                </a> <span class="navbar-item">
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
+        </div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
