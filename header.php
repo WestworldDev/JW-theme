@@ -20,10 +20,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
+        <!-- <link rel="apple-touch-icon" href="icon.png"> -->
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="/normalize.css">
+        <!-- <link rel="stylesheet" href="/normalize.css"> -->
         <!-- <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bulma.css">
          <link rel="stylesheet" href="/styles.css"> -->

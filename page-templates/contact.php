@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Page Layout
+ * Template Name: Contact
  *
  * @package WordPress
  * @subpackage Jeremy_West
@@ -25,12 +25,13 @@ get_header();?>
         </div> 
     </nav>
 </div>
-<!-- <div class="hero-body">
+<div class="hero-body">
     <div class="container has-text-centered">
-        <p class="title"> Jeremy West </p>
-        <p class="subtitle"> Web Engineer </p>
+    <?php if (function_exists('simple_contact_form')) simple_contact_form(); ?>
+        <!-- <p class="title"> Jeremy West </p>
+        <p class="subtitle"> Web Engineer </p> -->
     </div>
-</div>  -->
+</div> 
 <div class="hero-foot is-large">
     <nav class="tabs is-boxed is-fullwidth">
         <div class="container">
